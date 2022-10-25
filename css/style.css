@@ -4,6 +4,7 @@ body{
   padding-top: 0;
   width: 100%;
   font-family: 'Merriweather', serif;
+  color: #40511E;
 }
 
 
@@ -43,7 +44,7 @@ h3{
 }
 .btm-cloud{
   position: relative;
-  right: 300px;
+  right: 350px;
   top: 30px;
 }
 .mountain{
@@ -69,6 +70,7 @@ font-weight: 50;
 
 p{
   color: #545454;
+  line-height: 2;
   
 }
 .tag2{
@@ -117,9 +119,9 @@ p{
 .lastft{
   font-size: 1em;
   font-weight: 50;
-  text-align:left;
-  position: relative;
-  padding-left: 16%;
+  text-align:center;
+  width:40% ;
+  margin: 40px auto 60px;
 }
 .botmcont{
   display: flex;
@@ -141,19 +143,12 @@ p{
 a{
   color: #11999E;
 }
-.line{
-  background-color: white;
-  border-style: none;
-  border-top-color: #8ccb9d;
-  border-top-style:dotted;
-  width: 5%;
-}
 .copy{
   text-align: center;
   position: relative;
   padding-left: 20px;
   font-size: 1.3em;
-  background-color:#B7E5DD;
+  color: black;
 }
 .lstele{
   background-color:#B7E5DD;
@@ -170,11 +165,22 @@ a{
 }
 .griditem2{
   text-align: center;
+  font-size: 1.2em;
+  font-weight: 50;
+  width: 30%;
+  margin: auto;
 }
 .griditem1{
 position: relative;
-padding-left: 625px;
-padding-bottom: 10px;
-margin: 0;
-place-items: center;
+padding-left: 645px;
+padding-top: 10px;
+}
+.flex{
+  margin: 50px auto 50px auto;
+}
+hr{
+  border: dotted #EAF6F6 5px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
